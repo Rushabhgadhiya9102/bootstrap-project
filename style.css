@@ -18,8 +18,7 @@
 .login-out-page{
     margin: auto;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.274);
-    backdrop-filter: 20px;
+    background-color: rgba(0, 0, 0, 0.774);
     border-radius: 20px;
     width: 900px;
     overflow: hidden;
@@ -54,7 +53,7 @@
     border-radius: 20px;
   }
   
-  .sign-in button{
+  /* .sign-in button{
     padding: 10px;
     width: 250px;
     border-radius: 20px;
@@ -62,7 +61,7 @@
     color: white;
     text-transform: capitalize;
     font-weight: bold;
-  }
+  } */
   
   /* sign-up */
   
@@ -75,15 +74,6 @@
     margin-right: 20px;
   }
   
-  .sign-up button{
-    padding: 10px;
-    width: 250px;
-    border-radius: 20px;
-    background-color: blue;
-    color: white;
-    text-transform: capitalize;
-    font-weight: bold;
-  }
   
   .image-1{
     background-image: url('./images/Image2.jpg');
@@ -123,13 +113,4 @@
     width: 450px;
     height: 450px;
     color: white; 
-  }
-  
-  .btn-1, .btn-2{
-    border: 1px solid #ffffff;
-    padding: 10px;
-    width: 100px;
-    border-radius: 20px;
-    color: white;
-    cursor: pointer;
   }
