@@ -8,7 +8,7 @@
 
 body{
   background-color: rgba(0, 0, 0, 0.226);
-    background-image: url('./images/Desktop-1.png');
+    background-image: url('./images/Desktop-2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,6 +19,7 @@ body{
 
 .scrolled{
   backdrop-filter: blur(20px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .nav-link{
