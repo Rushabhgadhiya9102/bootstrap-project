@@ -2,10 +2,12 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    scrollbar-width: thin;
 }
 
 
-.background-banner{
+body{
+  background-color: rgba(0, 0, 0, 0.226);
     background-image: url('./images/Desktop-1.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -15,10 +17,19 @@
     height: 100vh;
 }
 
+.scrolled{
+  backdrop-filter: blur(20px);
+}
+
+.nav-link{
+  color: white;
+}
+
 .login-out-page{
     margin: auto;
     display: flex;
     background-color: rgba(0, 0, 0, 0.774);
+    backdrop-filter: blur(10px);
     border-radius: 20px;
     width: 900px;
     overflow: hidden;
@@ -52,16 +63,6 @@
     width: 300px;
     border-radius: 20px;
   }
-  
-  /* .sign-in button{
-    padding: 10px;
-    width: 250px;
-    border-radius: 20px;
-    background-color: blue;
-    color: white;
-    text-transform: capitalize;
-    font-weight: bold;
-  } */
   
   /* sign-up */
   
