@@ -27,17 +27,12 @@ body{
 }
 
 .login-out-page{
-    margin: auto;
-    display: flex;
     background-color: rgba(0, 0, 0, 0.774);
     backdrop-filter: blur(10px);
-    border-radius: 20px;
     width: 900px;
-    overflow: hidden;
   }
   
-  .sign-in{
-    
+  .sign-in{ 
     width: 900px;
     height: 450px;
     display: flex;
@@ -55,7 +50,7 @@ body{
   
   .login-icons{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     user-select: none;
   }
   
@@ -68,12 +63,12 @@ body{
   /* sign-up */
   
   .sign-up{
-    width: 900px;
+    width: 100%;
     height: 450px;
     display: flex;
     gap: 50px;
+    justify-content: center;
     align-items: center;
-    margin-right: 20px;
   }
   
   

@@ -23,7 +23,7 @@ $(document).ready(function(){
   
     $('.btn-2').on('click',function(){
       $('.sign-up').fadeOut(150);    
-    $('.sign-in').fadeIn(150); 
+      $('.sign-in').fadeIn(150); 
       $('.form-main-banner').removeClass('.sign-up');     
     });
   })
