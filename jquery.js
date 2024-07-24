@@ -34,3 +34,5 @@ $(document).ready(function () {
 });
 
 // --------------- L O G I N - L O G O U T - F O R M - E N D -------------- 
+
+AOS.init();

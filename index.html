@@ -12,6 +12,7 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="./style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,14 +21,15 @@
   <header>
     <nav class="navbar navbar-expand-lg px-5 fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand d-flex align-items-center text-light" href="#"><i class='bx bxl-graphql fs-1'></i>AR/VR
+        <a class="navbar-brand d-flex align-items-center text-light" href="#" data-aos="fade-right"><i
+            class='bx bxl-graphql fs-1'></i>AR/VR
           games</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto fw-semibold">
+          <ul class="navbar-nav ms-auto fw-semibold" data-aos="fade-left">
             <li class="nav-item">
               <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
             </li>
@@ -62,15 +64,15 @@
     <div class="container-fluid pt-5">
       <div class="card bg-transparent border-0 py-0">
         <img src="./images/background-image-2.png" class="card-img"
-          style="object-fit: contain; width: 100%; height: 95vh;" alt="...">
+          style="object-fit: contain; width: 100%; height: 95vh;" alt="..." data-aos="fade-down">
         <div class="card-img-overlay d-flex justify-content-between align-items-center px-5">
           <div>
             <h1 class="display-1 fw-bold text-uppercase text-light fst-italic"
-              style="writing-mode: vertical-lr; text-orientation: sideways-right;">next gen</h1>
+              style="writing-mode: vertical-lr; text-orientation: sideways-right;" data-aos="fade-right">next gen</h1>
           </div>
           <div>
             <h1 class="display-2 fw-bold text-uppercase text-center text-light fst-italic"
-              style="writing-mode: vertical-rl; text-orientation: sideways-right;">virtual reality
+              style="writing-mode: vertical-rl; text-orientation: sideways-right;" data-aos="fade-left">virtual reality
             </h1>
           </div>
         </div>
@@ -152,53 +154,143 @@
     </div>
     <!---------- M O D A L - L O G I N - F O R M - E N D ----------->
 
-      <div class="container my-5">
+    <!------------------ A R / V R - F E A T U R E S ------------------->
+    <div class="container-fluid bg-light py-5">
+      <h1 class="text-center my-5 display-3 fw-semibold">Why Choose AR/VR Gaming?</h1>
 
-        <h1 class="display-1 text-capitalize text-center my-5 fw-semibold text-light fst-italic">categories</h1>
-        <div class="card-group gap-3">
-          <div class="card overflow-hidden rounded-4 border-0 bg-transparent" style="width: 18rem;">
-            <img src="./images/Image2.jpg" class="card-img-top rounded-4" height="450px" alt="...">
-            <div class="card-body">
-              <h1 class="text-center text-capitalize text-light">gear vr headset</h1>
+      <div class="container">
+
+        <!--------- C A R D - 1 ---------->
+
+        <div class="card bg-transparent border-0 mb-3">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="./images/immersed-experience.png" class="img-fluid rounded-4" style="height: 400px;" alt="...">
             </div>
-          </div>
-          <div class="card overflow-hidden rounded-4 border-0 bg-transparent" style="width: 18rem;">
-            <img src="./images/image7.jpg" class="card-img-top rounded-4" height="450px" alt="...">
-            <div class="card-body">
-              <h1 class="text-center text-capitalize text-light">smart vr headset</h1>
-            </div>
-          </div>
-          <div class="card overflow-hidden rounded-4 border-0 bg-transparent" style="width: 18rem;">
-            <img src="./images/iamge5.jpg" class="card-img-top rounded-4" height="450px" alt="...">
-            <div class="card-body">
-              <h1 class="text-center text-capitalize text-light">playstation vr headset</h1>
+            <div class="col-md-6">
+              <div class="card-body p-5">
+                <h1 class="card-title fw-semibold">Immersive Experiences</h1>
+                <p class="card-text fs-3">Step into new worlds and experience gaming like never before. With AR and VR,
+                  you're
+                  not just playing the game; you're living it.</p>
+
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="row my-5">
+        <!--------- C A R D - 2 ---------->
+
+        <div class="card bg-transparent border-0 mb-3">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body px-0 py-5">
+                <h1 class="card-title fw-semibold">Cutting-Edge Technology</h1>
+                <p class="card-text fs-3">Stay ahead of the curve with the latest advancements in AR and VR. Our games
+                  utilize
+                  the most advanced technology to deliver stunning visuals and realistic interactions.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="./images/cutting-edge-tech.jpg" class="img-fluid rounded-4" style="height: 400px;" alt="...">
+            </div>
+          </div>
+        </div>
+
+        <!--------- C A R D - 3 ---------->
+
+        <div class="card bg-transparent border-0 mb-3">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="./images/commmunity-and-connnection.webp" class="img-fluid rounded-4" style="height: 400px;"
+                alt="...">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body p-5">
+                <h1 class="card-title fw-semibold">Community & Connection</h1>
+                <p class="card-text fs-3">Join a vibrant community of gamers. Share your experiences, compete in
+                  challenges,
+                  and collaborate in multiplayer games.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!------------------ A R / V R - F E A T U R E S - E N D ------------------>
+
+    <!------------------ A R / V R - F E A T U R E D - G A M E S ----------------->
+
+    <h1 class="text-center my-5 display-3 fw-semibold text-light">Featured Games</h1>
+
+    <div class="container">
+
+      <!------------- C A R D - 1 -------------->
+
+      <div class="card border-0 mb-3 mx-auto bg-transparent text-light" style="width: 800px;">
+        <div class="card-body text-center">
+          <h3 class="card-title">AR Quests</h3>
+          <p class="card-text fs-4">Turn your surroundings into a gaming arena with our AR Quests. Solve puzzles, battle
+            creatures, and uncover hidden treasures in the real world.</p>
+        </div>
+        <img src="https://i.pinimg.com/originals/36/e1/01/36e101f52b6b85ed80c5667c99ced84c.jpg"
+          style="height: 500px; width: 800px;" class="rounded-4" alt="...">
+      </div>
+
+      <!------------- C A R D - 2 -------------->
+
+      <div class="card border-0 mx-auto bg-transparent text-light" style="width: 800px;">
+        <img src="./images/vr-adventure.jpg" class="rounded-4" alt="..." style="height: 500px; width: 800px;">
+        <div class="card-body text-center">
+          <h3 class="card-title">VR Adventures</h3>
+          <p class="card-text fs-4">Explore uncharted territories in our VR Adventures. From deep-sea diving to outer
+            space exploration, the possibilities are endless.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!------------------ A R / V R - F E A T U R E D - G A M E S - E N D ---------------->
+
+    <!------------------ N E W S - A N D - T I P S --------------------->
+
+    <div class="container-fluid bg-light py-5 my-5">
+      <h1 class="display-3 fw-semibold text-center mb-5">Blog</h1>
+      <div class="row">
+
         <div class="col-lg-6">
-            <div class="row gx-2">
-              <div class="col-lg-6">
-                <img src="./images/image4.jpg" class="rounded-start-5 w-100 h-75" alt="">
-              </div>
-              <div class="col-lg-6">
-                <img src="./images/image6.png" class="rounded-end-5 w-75 h-50 mb-2" alt="">
-                <img src="./images/image3.jpg" class="rounded-end-5 w-100" alt="">
-              </div>
+          <div class="card text-bg-dark">
+            <img src="./images/ar-vr-news.webp" style="height: 450px;" class="card-img" alt="...">
+            <div class="card-img-overlay bg-dark bg-opacity-75">
+              <h5 class="card-title fs-1">Latest News & Updates</h5>
+              <p class="card-text fs-4">Stay informed with the latest news in the AR/VR gaming world. From tech updates
+                to game reviews, our blog has it all.</p>
             </div>
+          </div>
         </div>
-        <div class="col-lg-6 d-flex align-items-center">
-          <h1 class="display-1 fw-semibold text-light fst-italic px-5">Explore the metaverse one pixel at a time</h1>
+
+        <div class="col-lg-6">
+          <div class="card text-bg-dark">
+            <img src="./images/arvr-tips-and-tricks.jpg" style="height: 450px;" class="card-img" alt="...">
+            <div class="card-img-overlay bg-dark bg-opacity-75">
+              <h5 class="card-title fs-1">Tips & Tricks</h5>
+              <p class="card-text fs-4">Enhance your gaming skills with expert tips and tricks. Learn how to get the
+                most out of your AR and VR gear and dominate your favorite games.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
 
+      </div>
+    </div>
 
+    <!------------------ N E W S - A N D - T I P S - E N D -------------------->
 
     <!-------------------- C A R O U S E L - 1 ------------------>
 
-    <h1 class="text-center text-capitalize my-5 text-light fst-italic">our best selling games</h1>
+    <h1 class="text-center text-capitalize my-5 text-light display-3 fw-semibold fst-italic">our best selling games</h1>
     <div class="container py-5">
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
@@ -299,11 +391,73 @@
     </div>
 
     <!-------------------- C A R O U S E L - 1 - E N D ----------------->
+
+    <!----------------------- A B O U T - U S --------------------->
+
+    <div class="container-fluid bg-light p-5">
+      <div class="container">
+        <h1 class="text-center display-3 fw-semibold">About Us</h1>
+
+        <p class="fs-4 p-5">At AR/VR Gaming Hub, we're passionate about the future of gaming. Our mission is to provide
+          gamers with the most immersive and engaging experiences possible. With a team of dedicated developers,
+          designers, and enthusiasts, we're committed to pushing the boundaries of what's possible in AR and VR gaming.
+        </p>
+      </div>
+    </div>
+
+    <!----------------------- A B O U T - U S - E N D -------------------->
+
+    <!--------------------- C O N T A C T - U S -------------------->
+
+    <div class="container text-light my-5 py-5">
+      <h1 class="text-center display-3 fw-semibold my-5">Contact Us</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col-md-6">
+              <input type="email" placeholder="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <input type="password" placeholder="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <textarea name="text" placeholder="message" class="form-control"></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-light">Sign in</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6">
+              <div>
+                <h4>address</h4>
+                <p>red and white games, </p>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------- C O N T A C T - U S - E N D ------------------->
   </main>
   <footer>
 
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
